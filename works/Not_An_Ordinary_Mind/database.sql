@@ -1,0 +1,17 @@
+CREATE DATABASE IF NOT EXISTS not_an_ordinar_mind CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE not_an_ordinar_mind;
+CREATE TABLE IF NOT EXISTS waitlist (
+ id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+ name VARCHAR(120) NOT NULL,
+ email VARCHAR(190) NOT NULL UNIQUE,
+ created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+CREATE TABLE IF NOT EXISTS products (
+ id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+ name VARCHAR(120) NOT NULL,
+ code VARCHAR(50) NOT NULL UNIQUE,
+ status VARCHAR(50) NOT NULL DEFAULT 'COMING SOON',
+ description TEXT,
+ created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+INSERT INTO products (name, code, status, description) VALUES ('NOM—001','NOM-001','COMING SOON','The first sculpted footwear object from Not An Ordinar Mind.');

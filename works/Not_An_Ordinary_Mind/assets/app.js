@@ -1,0 +1,2 @@
+const shoe=document.querySelector('.shoe-3d');const stage=document.querySelector('.hero-stage');
+if(stage&&shoe){stage.addEventListener('pointermove',e=>{const r=stage.getBoundingClientRect();const x=(e.clientX-r.left)/r.width-.5;const y=(e.clientY-r.top)/r.height-.5;shoe.style.transform=`rotateX(${58-y*12}deg) rotateZ(${-18+x*14}deg) rotateY(${x*12}deg)`});stage.addEventListener('pointerleave',()=>shoe.style.transform='rotateX(58deg) rotateZ(-18deg) rotateY(-10deg)')}

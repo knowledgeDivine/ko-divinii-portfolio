@@ -1,0 +1,10 @@
+
+<style id="ko-portfolio-return">
+.ko-portfolio-return{position:fixed;left:20px;bottom:20px;z-index:99999;display:inline-flex;align-items:center;gap:9px;padding:13px 18px;border:1px solid rgba(255,255,255,.22);border-radius:999px;background:rgba(8,8,8,.88);backdrop-filter:blur(14px);color:#fff;text-decoration:none;font:600 12px/1 Inter,Arial,sans-serif;box-shadow:0 10px 35px rgba(0,0,0,.3);transition:.25s}.ko-portfolio-return:hover{transform:translateY(-3px);border-color:#d7ff45;color:#d7ff45}.ko-portfolio-return .ko-arrow{font-size:17px}@media(max-width:600px){.ko-portfolio-return{left:12px;bottom:12px;padding:11px 14px;font-size:11px}}
+</style>
+<?php $page_title="About"; include "includes/header.php"; ?>
+<section class="page-hero about-hero"><div class="section-kicker">OUR STORY</div><h1>Property should feel<br><em>personal.</em></h1><p>MIMI Homes exists to make exceptional real estate simpler, clearer and more human.</p></section>
+<section class="section two-col"><div><div class="section-kicker">WHY MIMI</div><h2>Beautiful spaces.<br>Thoughtful service.</h2></div><div><p class="large-copy">From the first conversation to the moment the keys change hands, our approach is deliberately personal. We combine local market knowledge, careful curation and a long-term view of property ownership.</p><div class="values"><div><b>01</b><h3>Curated</h3><p>We focus on quality opportunities rather than endless listings.</p></div><div><b>02</b><h3>Transparent</h3><p>Clear information and straightforward guidance at every stage.</p></div><div><b>03</b><h3>Personal</h3><p>A dedicated experience built around your priorities.</p></div></div></div></section>
+<section class="dark-banner"><div><div class="section-kicker light">MIMI HOMES</div><h2>Let’s find your<br><em>next chapter.</em></h2></div><a class="btn btn-outline" href="contact.php">Talk to us</a></section>
+<?php include "includes/footer.php"; ?>
+<a class="ko-portfolio-return" href="/KO_DIVINII_CV/#works" aria-label="Return to K.O DIVINII portfolio"><span class="ko-arrow">←</span> Back to Portfolio</a>

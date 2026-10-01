@@ -1,0 +1,10 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="JC Golf Club emblem">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#efe2b1"/><stop offset=".55" stop-color="#cda95c"/><stop offset="1" stop-color="#8f6a2c"/></linearGradient></defs>
+  <circle cx="120" cy="120" r="110" fill="#0a0f0c" stroke="url(#g)" stroke-width="4"/>
+  <circle cx="120" cy="120" r="96" fill="none" stroke="#5e6b5d" stroke-width="1" stroke-dasharray="2 7" opacity=".7"/>
+  <path d="M82 73v84c0 13 8 22 25 22 17 0 26-9 26-23V73" fill="none" stroke="url(#g)" stroke-width="12" stroke-linecap="square"/>
+  <path d="M146 78c7-5 14-7 24-7v92c0 16-10 27-26 30" fill="none" stroke="url(#g)" stroke-width="12" stroke-linecap="square"/>
+  <circle cx="188" cy="161" r="11" fill="#f4e9c8"/>
+  <path d="M179 162c-23 17-44 26-68 28-11 1-22 1-35-1" fill="none" stroke="#9db08f" stroke-width="3" opacity=".75"/>
+  <text x="120" y="200" text-anchor="middle" fill="#9aa792" font-family="Arial, sans-serif" font-size="8" letter-spacing="4">K.O. DIVINII</text>
+</svg>
